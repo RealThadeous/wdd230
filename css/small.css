@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Krona+One|Roboto');
-
 body {
-    font-family: Roboto, mono-space, serif;
+    font-family: 'Roboto', mono-space, serif;
     font-size: 1.1em;
     line-height: 1.6em;
     letter-spacing: 0.04em;
@@ -27,7 +25,6 @@ header, footer, .image {
 }
 .image {
     height: 230px;
-    float: right;
 }
 h1 {
   color: #0AD3FF;
@@ -45,7 +42,7 @@ main {
 }
 h2 {
   color: black;
-  font-family: Roboto, mono-space, serif;
+  font-family: 'Roboto', mono-space, serif;
   font-size: 1.5em;
   padding: 0.2em;
   border-bottom: 1px solid black;
