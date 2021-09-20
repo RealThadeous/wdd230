@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', mono-space, serif;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    letter-spacing: 0.04em;
+    display: block;
+}
+.content {
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header {
+    display: block;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 0.1em;
+}
+header, footer {
+    background-color: #023C40;
+    border-radius: 10px; 
+}
+h1 {
+    color: #0AD3FF;
+    font-family: 'Krona One', cursive, sans-serif;
+    font-size: 2.2em;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold; 
+}
+h2 {
+    color: #0AD3FF;
+    font-family: 'Roboto', mono-space, serif;
+    font-size: 1.5em;
+    padding: 0.2em;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.hicks, .white_space, .contrast {
+    background-color: rgb(207, 207, 207);
+    margin: 0.5em;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+h3 {
+    text-align: left;
+    font-size: 1em;
+    padding: 0.2em;
+    background-color: black;
+    color: white;
+}
+.hicks {
+    display: grid;
+    grid-column: 1 / 2;
+    text-align: center;
+}
+.white_space {
+    display: grid;
+    grid-column: 2 / 3;
+    text-align: center;
+}
+.contrast {
+    display: grid;
+    grid-column: 3 / 4;
+    text-align: center;
+}
