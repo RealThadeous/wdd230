@@ -67,6 +67,7 @@ h3 {
 }
 .hicks img, .white_space img, .contrast img {
     border: 1px solid grey;
+    width: 100%;
 }
 footer {
     color: #0AD3FF;
