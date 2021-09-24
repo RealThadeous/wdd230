@@ -24,7 +24,7 @@ header, footer {
 h1 {
     color: #0AD3FF;
     font-family: 'Krona One', cursive, sans-serif;
-    font-size: 2.2em;
+    font-size: 1.5em;
     display: block;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -46,33 +46,36 @@ h2 {
 }
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 .hicks, .white_space, .contrast {
+    display: block;
     background-color: rgb(207, 207, 207);
     margin: 0.5em;
     border-radius: 10px;
     border: 1px solid black;
+    padding: 0.3em;
 }
 h3 {
     text-align: left;
     font-size: 1em;
-    padding: 0.2em;
+    padding: 0.5em;
     background-color: black;
     color: white;
+    border-radius: 10px 10px 0px 0px;
+    margin: -0.3em;
 }
-.hicks {
-    display: grid;
-    grid-column: 1 / 2;
-    text-align: center;
+.hicks img, .white_space img, .contrast img {
+    border: 1px solid grey;
 }
-.white_space {
-    display: grid;
-    grid-column: 2 / 3;
+footer {
+    color: #0AD3FF;
+    font-size: 0.8em;
+    align-items: center;
+    justify-items: center;
     text-align: center;
+    padding: 0.7em;
 }
-.contrast {
-    display: grid;
-    grid-column: 3 / 4;
-    text-align: center;
+footer a {
+    color: #0AD3FF;
 }
