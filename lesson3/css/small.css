@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Architects Daughter', cursive, mono-space;
-    font-size: 1.1em;
     line-height: 1.6em;
     letter-spacing: 0.04em;
     display: block;
@@ -25,6 +24,7 @@ body {
 }
 nav {
     font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
     background-color: #36454f;
     grid-column: span 2;
 }
@@ -38,16 +38,103 @@ nav ul li a {
 	display: block;
 	color: #fff;
 	text-align: center;
-    font-size: 0.95em;
 	padding: 0.75em;
 	text-decoration: none;
-	font-size: 0.95rem;
+}
+nav a:hover {
+    color: #EEAD5C;
 }
 h1 {
     text-align: center;
 }
+p {
+    font-family: 'Montserrat', sans-serif; 
+}
 main {
     padding: 1em;
 }
-
-
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    background-color: #36454f;
+    color: white;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 0.4em;
+}
+footer a {
+    color: #0AD3FF;
+}
+.palette {
+    text-align: center;
+}
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+    padding: 0.2em;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  .primary {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+    color: #FFFFFF;
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  .accent2{
+    background-color: var(--accent2-color);
+  }
+  .typo {
+    text-align: center;
+}
+  .typography {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+    padding: 0.2em;
+  }
+  .typography th {
+    background-color: #999;
+  }
+  .typography td{
+    width: 33%;
+    height: 3em;
+  }
+  .heading_font {
+    font-family: var(--heading-font);
+    color: #000000;
+  }
+  .paragraph_font {
+    font-family: var(--paragraph-font);
+    color: #000000;
+  }
+  .navigation_font {
+    font-family: var(--paragraph-font);
+  }
+  p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+  }
+  :root {
+    --primary-color: #000000;
+    --secondary-color: #36454F;
+    --accent1-color: #FFFFFF;
+    --accent2-color: #EEAD5C;
+  
+    --heading-font: "Architects Daughter", cursive, mono-space;
+    --paragraph-font: "Roboto", Helvetica, sans-serif;
+  }
