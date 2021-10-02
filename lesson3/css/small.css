@@ -15,7 +15,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 0.2em;
-    padding-top: -10px;
 }
 .logo {
     width: 250px;
