@@ -1,0 +1,17 @@
+@media only screen and (min-width: 60em) {
+    nav ol li {
+        font-size: 1.4em;
+    }
+    footer {
+        font-size: 1em;
+    }
+    h1, h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.6em;
+    }
+    .content_box {
+        font-size: larger;
+    }
+}

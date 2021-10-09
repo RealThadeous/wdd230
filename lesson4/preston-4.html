@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WEATHER FRIENDS | Preston</title>
+        <meta name="description" content="Community website for weather and event updates for Preston, Soda Springs, and Fish Haven">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css" />
+        <link rel="stylesheet" href="css/large.css">
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    </head>
+    <body>
+        <div class="content">
+        <header class="header">
+            <img class="logo" src="images/weather_friends_logo.png" alt="logo of a smiling sun">
+            <section>
+            <h3 class="moto">Saving Each Other From Bad Weather</h3>
+            </section>
+        </header>
+        <nav class="top_nav">
+            <ol class="navigation">
+                <li><a onclick="toggleMenu()" href="#">&#9788; Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a  class="active" href="#">Preston</a></li>
+                <li><a  href="#">Soda Springs</a></li>
+                <li><a  href="#">Fish Haven</a></li>
+                <li><a  href="#">Storm Center</a></li>
+                <li><a  href="#">Gallery</a></li>
+            </ol>
+            </nav>
+        <main>
+            <h2>Preston</h2>
+            <div class="content_box">Hero Image/Weather Summary</div>
+            <div class="content_box">5 Day Forecast</div>
+            <div class="content_box">Article</div>
+            <div class="content_box">Contact Information</div>
+        </main>
+        <footer class="footer">
+        <p class="copywright">
+          &copy; <span id="year"></span> Weather Friends | Grant Boreham 
+        </p>
+        <p class="time">Current Date: <span id="currentDate"></span></p>
+        <script src="js/main.js"></script>
+        </footer>
+    </div>
+    </body>
+</html>

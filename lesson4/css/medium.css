@@ -1,0 +1,27 @@
+@media only screen and (min-width: 37em) {
+    nav ol { display: flex; }
+    nav ol li { flex: 1 1 100%; }
+.logo {
+    width: 300px;
+}
+.navigation li:first-child {
+    display: none;
+}
+.navigation li {
+    display: block;
+}
+
+nav ol li {
+    font-size: 0.8em;
+}
+footer {
+    font-size: 1em;
+}
+h1, h2 {
+    font-size: 1.8em;
+}
+h3 {
+    font-size: 1.4em;
+}
+
+}
