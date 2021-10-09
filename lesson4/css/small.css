@@ -61,8 +61,8 @@ p {
 }
 .content_box {
     display: block;
-    max-width: 90%;
-    padding: 15px;
+    max-width: 100%;
+    padding: 0;
     background-color: #EEAD5C;
     margin: 10px auto;
     border: #000000 1px solid;
