@@ -11,6 +11,7 @@ deleteButton.textContent = "❌";
 li.appendChild(deleteButton);
 list.appendChild(li);
 input.value = "";
+input.focus();
 deleteButton.addEventListener('click', () => {
     list.removeChild(li);
     input.focus();
