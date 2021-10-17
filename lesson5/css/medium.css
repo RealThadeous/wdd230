@@ -14,6 +14,9 @@
 nav ol li {
     font-size: 0.8em;
 }
+.weathersummary {
+    font-size: 1em;;
+}
 .article {
     overflow: auto;
 }
