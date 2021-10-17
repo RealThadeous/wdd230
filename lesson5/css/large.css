@@ -20,6 +20,9 @@
     .content_box {
         font-size: larger;
     }
+    .forecast-tab {
+        max-width: 900px;
+    }
     .contact-info {
         font-size: 1em;
     }
