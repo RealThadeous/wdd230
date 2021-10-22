@@ -74,16 +74,16 @@ p {
 }
 .content_box {
     position: relative;
-    max-width: 100%;
     height: auto;
     margin: 10px;
     padding: 0;
 }
-.preston-image {
-    width: 100%;
-    height: auto;
+
+.hero-pic img {
     display:block;
+    width: 100%;
     padding: 0;
+    margin: 0;
     border: #000000 1px solid;
 }
 .weathersummary {

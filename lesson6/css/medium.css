@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37em) {
+@media only screen and (min-width: 35em) {
     nav ol { display: flex; }
     nav ol li { flex: 1 1 100%; }
 .logo {
