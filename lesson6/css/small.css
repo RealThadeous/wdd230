@@ -65,7 +65,9 @@ nav a:hover {
 main {
     margin: 0 auto;
 }
-
+h1 {
+    text-align: center;
+}
 h2, h3 {
     text-align: center;
 }
@@ -206,4 +208,18 @@ footer {
 }
 footer a {
     color: #0AD3FF;
+}
+
+/*    CODE FOR GALLERY PAGE   */
+
+figure {
+    border: 1px solid black;
+    margin: 2%;
+}
+figure img {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+figcaption {
+    text-align: center;
 }

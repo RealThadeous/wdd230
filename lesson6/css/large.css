@@ -3,7 +3,7 @@
         font-size: 1.4em;
     }
     main {
-        width: 960px;
+        width: 90%;
     }
     footer {
         font-size: 1em;
@@ -33,5 +33,14 @@
     iframe {
         width: 500px;
         height: 300px;
+    }
+    .gallery-div {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    figure {
+        padding: 5px;
+    }
+    figure:hover {
+        box-shadow: 0 0 50px #333;
     }
 }

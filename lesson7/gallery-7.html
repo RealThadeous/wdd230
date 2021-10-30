@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Gallery</title>
+    <meta name="description" content="Gallery of member submitted photos" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/weather_friends_icon.ico" />
+    <link rel="stylesheet" href="../lesson6/css/small.css" />
+    <link rel="stylesheet" href="../lesson6/css/medium.css" />
+    <link rel="stylesheet" href="../lesson6/css/large.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  </head>
+  <body>
+  <div class="content">
+      <header class="header">
+        <span id="message"></span>
+        <img
+          class="logo"
+          src="../lesson6/images/weather_friends_logo.png"
+          alt="logo of a smiling sun"
+        />
+        <section>
+          <h3 class="moto">Saving Each Other From Unexpected Weather</h3>
+        </section>
+      </header>
+      <nav class="top_nav">
+        <ol class="navigation">
+          <li><a onclick="toggleMenu()" href="#">&#9788; Menu</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li><a href="#">Storm Center</a></li>
+          <li><a class="active" href="#">Gallery</a></li>
+        </ol>
+      </nav>
+
+      <main class="gallery-main">
+        <h1>GALLERY</h1>
+        <div class="gallery-div">
+        <figure class="pic1">
+            <source media="(max-width: 35em)" srcset="images/sigmund-545-small.jpg" />
+            <source media="(max-width: 55.99em)" srcset="images/sigmund-667-medium.jpg" />
+            <img src="images/placeholder.jpg" data-src="images/sigmund-960-large.jpg" alt="Image of Snow in town" />
+            <figcaption>Photo by Sigmund on Unsplash</figcaption>
+        </figure>
+        <figure class="pic2">
+            <source media="(max-width: 35em)" srcset="images/ricardo-545-small.jpg" />
+            <source media="(max-width: 55.99em)" srcset="images/ricardo-667-medium.jpg" />
+            <img src="images/placeholder.jpg" data-src="images/ricardo-960-large.jpg" alt="Image of Snow in town" />
+            <figcaption>Photo by Ricardo Gomez Angel on Unsplash</figcaption>
+        </figure>
+        <figure class="pic3">
+            <source media="(max-width: 35em)" srcset="images/jacob-545-small.jpg" />
+            <source media="(max-width: 55.99em)" srcset="images/jacob-667-medium.jpg" />
+            <img src="images/placeholder.jpg" data-src="images/jacob-960-large.jpg" alt="Image of Snow in town" />
+            <figcaption>Photo by Jacob Wang on Unsplash</figcaption>
+        </figure>
+        <figure class="pic4">
+            <source media="(max-width: 35em)" srcset="images/michael-545-small.jpg" />
+            <source media="(max-width: 55.99em)" srcset="images/michael-667-medium.jpg" />
+            <img src="images/placeholder.jpg" data-src="images/michael-960-large.jpg" alt="Image of Snow in town" />
+            <figcaption>Photo by Michael Podger on Unsplash</figcaption>
+        </figure>
+        <figure class="pic5">
+            <source media="(max-width: 35em)" srcset="images/peter-545-small.jpg" />
+            <source media="(max-width: 55.99em)" srcset="images/peter-667-medium.jpg" />
+            <img src="images/placeholder.jpg" data-src="images/peter-960-large.jpg" alt="Image of Snow in town" />
+            <figcaption>Photo by Peter Forster on Unsplash</figcaption>
+        </figure>
+        <figure class="pic6">
+            <source media="(max-width: 35em)" srcset="images/james-545-small.jpg" />
+            <source media="(max-width: 55.99em)" srcset="images/james-667-medium.jpg" />
+            <img src="images/placeholder.jpg" data-src="images/james-960-large.jpg" alt="Image of Snow in town" />
+            <figcaption>Photo by James Wheeler on Unsplash</figcaption>
+        </figure>
+        <figure class="pic7">
+            <source media="(max-width: 35em)" srcset="images/chirag-545-small.jpg" />
+            <source media="(max-width: 55.99em)" srcset="images/chirag-667-medium.jpg" />
+            <img src="images/placeholder.jpg" data-src="images/chirag-960-large.jpg" alt="Image of Snow in town" />
+            <figcaption>Photo by Chirag Saini on Unsplash</figcaption>
+        </figure>
+        <figure class="pic8">
+            <source media="(max-width: 35em)" srcset="images/rishi-545-small.jpg" />
+            <source media="(max-width: 55.99em)" srcset="images/rishi-667-medium.jpg" />
+            <img src="images/placeholder.jpg" data-src="images/rishi-960-large.jpg" alt="Image of Snow in town" />
+            <figcaption>Photo by Rishi Mohan on Unsplash</figcaption>
+        </figure>
+        <figure class="pic9">
+            <source media="(max-width: 35em)" srcset="images/evgeny-545-small.jpg" />
+            <source media="(max-width: 55.99em)" srcset="images/evgeny-667-medium.jpg" />
+            <img src="images/placeholder.jpg" data-src="images/evgeny-960-large.jpg" alt="Image of Snow in town" />
+            <figcaption>Photo by Evgeny Nelmin on Unsplash</figcaption>
+        </figure>
+        </div>
+        <div class="contact">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.486452736237!2d-111.87576958428585!3d42.09705147920536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7e967e1ebc7%3A0x14469667cfe31546!2s30%20N%201st%20E%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sza!4v1634410769440!5m2!1sen!2sza"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="contact-info">
+            <p><b>Weather Friends</b></p>
+            <p>30 N 1st E</p>
+            <p>Preston, ID 83263</p>
+            <br />
+            <p>999-999-99999</p>
+            <p>weatherfriends@gmail.com</p>
+            <br />
+            <table class="social">
+              <tr>
+                <td>
+                  <a href=""
+                    ><img src="../lesson6/images/facebook.png" alt="facebook icon"
+                  /></a>
+                </td>
+                <td>
+                  <a href=""
+                    ><img src="../lesson6/images/instagram.png" alt="instagram icon"
+                  /></a>
+                </td>
+                <td>
+                  <a href=""
+                    ><img src="../lesson6/images/youtube.png" alt="youtube icon"
+                  /></a>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <p class="copywright">
+          &copy; <span id="year"></span> Weather Friends | Grant Boreham
+        </p>
+        <p class="time">Current Date: <span id="currentDate"></span></p>
+      </footer>
+      <script src="lazyload.js" async defer></script>
+      <script src="../lesson6/js/webfont.js"></script>
+      <script src="../lesson6/js/main.js"></script>
+  </div>
+  </body>
+</html>
