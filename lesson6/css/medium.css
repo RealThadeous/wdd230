@@ -51,4 +51,18 @@ figure {
 figure img {
     border-bottom: none;
 }
+
+/*------------------------------- CODE FOR FORM ------------------------------------*/
+
+form fieldset {
+    max-width: 30rem;
+}
+form input.submitBtn {
+    width: 100%;
+    max-width: 25rem;
+}
+/* ------------------ CODE FOR THANKS PAGE -----------------------*/
+.thanks p {
+    font-size: 1.2rem;
+}
 }

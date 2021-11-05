@@ -28,3 +28,7 @@ if (dayOfWeek == 5) {
 } else {
     document.getElementById("message").style.display = "none";
 } 
+
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}

@@ -43,4 +43,21 @@
     figure:hover {
         box-shadow: 0 0 50px #333;
     }
+/*------------------------------- CODE FOR FORM ------------------------------------*/
+
+    form fieldset {
+        max-width: 35rem;
+    }
+    form input.submitBtn {
+        max-width: 30rem;
+    }
+    form label.sbs {
+        display: inline-block;
+        flex-direction: column;
+        padding: .75rem 0;
+    }
+/* ------------------ CODE FOR THANKS PAGE -----------------------*/
+.thanks p {
+    font-size: 1.5rem;
+}
 }
