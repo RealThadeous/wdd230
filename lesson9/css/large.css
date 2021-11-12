@@ -14,15 +14,11 @@
     h3 {
         font-size: 1.6em;
     }
-    .weathersummary {
-        font-size: 1.4em;;
-    }
+    
     .content_box {
         font-size: larger;
     }
-    .forecast-tab {
-        max-width: 900px;
-    }
+    
     .contact-info {
         font-size: 1em;
     }
@@ -34,30 +30,22 @@
         width: 500px;
         height: 300px;
     }
-    .gallery-div {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+    
     figure {
         padding: 5px;
     }
     figure:hover {
         box-shadow: 0 0 50px #333;
     }
-/*------------------------------- CODE FOR FORM ------------------------------------*/
-
-    form fieldset {
-        max-width: 35rem;
-    }
-    form input.submitBtn {
-        max-width: 30rem;
-    }
-    form label.sbs {
-        display: inline-block;
-        flex-direction: column;
-        padding: .75rem 0;
-    }
-/* ------------------ CODE FOR THANKS PAGE -----------------------*/
-.thanks p {
-    font-size: 1.5rem;
+/*------------------------------- CODE FOR HOME PAGE ------------------------------------*/
+div.cards {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+section {
+    grid-template-columns: 1fr;
+}
+section:nth-child(even) h2, section:nth-child(even) h4 {
+    grid-column: 1;
 }
 }
