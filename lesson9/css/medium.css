@@ -35,34 +35,28 @@ h1, h2 {
 h3 {
     font-size: 1.4em;
 }
-.forecast {
-    display: block;
-}
-.gallery-main {
-    width: 95%;
-}
-.gallery-div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 figure {
     padding: 2px;
 }
 figure img {
     border-bottom: none;
 }
-
-/*------------------------------- CODE FOR FORM ------------------------------------*/
-
-form fieldset {
-    max-width: 30rem;
+/*------------------------ CODE HOME PAGE -----------------------*/
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-form input.submitBtn {
+
+section:nth-child(even) img {
+    grid-column: 1;
+}
+img {
     width: 100%;
-    max-width: 25rem;
+    height: auto;
+    padding: 0;
 }
-/* ------------------ CODE FOR THANKS PAGE -----------------------*/
-.thanks p {
-    font-size: 1.2rem;
+section:nth-child(even) h2, section:nth-child(even) h4 {
+    grid-column: 2;
 }
 }

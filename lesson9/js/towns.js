@@ -13,16 +13,20 @@ fetch(requestURL)
         let year = document.createElement('h4');
         let population = document.createElement('h4');
         let rain = document.createElement('h4');
+        let img = document.createElement('img');
 
         name.innerHTML = `${towns[i].name}`;
         year.innerHTML = `Year Founded: ${towns[i].yearFounded}`;
         population.innerHTML = `Population: ${towns[i].population}`;
         rain.innerHTML = `Annual Rain Fall ${towns[i].averageRainfall}`;
+        img.setAttribute('src', `${towns[i].photo}`);
+        img.setAttribute('alt', `${towns[i].name}`);
 
         card.appendChild(name);
         card.appendChild(year);
         card.appendChild(population);
         card.appendChild(rain);
+        card.appendChild(img);
 
         document.querySelector('div.cards').appendChild(card);
         }      
