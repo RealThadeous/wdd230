@@ -1,0 +1,68 @@
+@media only screen and (min-width: 35em) {
+    nav ol { display: flex; }
+    nav ol li { flex: 1 1 100%; }
+.logo {
+    width: 300px;
+}
+.navigation li:first-child {
+    display: none;
+}
+.navigation li {
+    display: block;
+}
+
+nav ol li {
+    font-size: 0.8em;
+}
+.weathersummary {
+    font-size: 1em;
+}
+.article {
+    overflow: auto;
+}
+.article-img {
+    float: right;
+}
+.map {  
+    display: flex;
+}
+footer {
+    font-size: 1em;
+}
+h1, h2 {
+    font-size: 1.8em;
+}
+h3 {
+    font-size: 1.4em;
+}
+.forecast {
+    display: block;
+}
+.gallery-main {
+    width: 95%;
+}
+.gallery-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+figure {
+    padding: 2px;
+}
+figure img {
+    border-bottom: none;
+}
+
+/*------------------------------- CODE FOR FORM ------------------------------------*/
+
+form fieldset {
+    max-width: 30rem;
+}
+form input.submitBtn {
+    width: 100%;
+    max-width: 25rem;
+}
+/* ------------------ CODE FOR THANKS PAGE -----------------------*/
+.thanks p {
+    font-size: 1.2rem;
+}
+}
