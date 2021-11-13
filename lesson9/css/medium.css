@@ -43,20 +43,26 @@ figure img {
     border-bottom: none;
 }
 /*------------------------ CODE HOME PAGE -----------------------*/
-section {
+div.cards section{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 section:nth-child(even) img {
-    grid-column: 1;
-}
-img {
-    width: 100%;
-    height: auto;
-    padding: 0;
-}
-section:nth-child(even) h2, section:nth-child(even) h4 {
     grid-column: 2;
+
+}
+section img {
+    height: auto;
+}
+section:nth-child(even) article {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+}
+section:nth-child(odd) article {
+    justify-self: center;
+    align-self: center;
 }
 }

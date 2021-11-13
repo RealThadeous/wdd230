@@ -9,6 +9,7 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
     for (let i of [0, 2, 6]) {
         let card = document.createElement('section');
+        let data = document.createElement('article');
         let name = document.createElement('h2');
         let year = document.createElement('h4');
         let population = document.createElement('h4');
@@ -19,16 +20,19 @@ fetch(requestURL)
         year.innerHTML = `Year Founded: ${towns[i].yearFounded}`;
         population.innerHTML = `Population: ${towns[i].population}`;
         rain.innerHTML = `Annual Rain Fall ${towns[i].averageRainfall}`;
-        img.setAttribute('src', `${towns[i].photo}`);
+        img.setAttribute('src', `images/${towns[i].photo}`);
         img.setAttribute('alt', `${towns[i].name}`);
 
-        card.appendChild(name);
-        card.appendChild(year);
-        card.appendChild(population);
-        card.appendChild(rain);
+        data.appendChild(name);
+        data.appendChild(year);
+        data.appendChild(population);
+        data.appendChild(rain);
         card.appendChild(img);
 
+        card.appendChild(data)
+
         document.querySelector('div.cards').appendChild(card);
+
         }      
         });
 

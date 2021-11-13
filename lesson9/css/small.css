@@ -137,5 +137,9 @@ div.wireframes img {
 div.cards section {
     border: 1px solid black;
     text-align: center;
-    margin: 1px;
+    margin: 5px;
+    background-color: #bdf3ff;
+}
+section img {
+    max-width: 100%;
 }

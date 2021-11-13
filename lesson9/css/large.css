@@ -39,13 +39,9 @@
     }
 /*------------------------------- CODE FOR HOME PAGE ------------------------------------*/
 div.cards {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex; 
 }
-section {
-    grid-template-columns: 1fr;
-}
-section:nth-child(even) h2, section:nth-child(even) h4 {
-    grid-column: 1;
+div.cards section {
+    display: block;
 }
 }
