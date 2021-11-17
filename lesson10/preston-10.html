@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>WEATHER FRIENDS | Preston</title>
+    <meta
+      name="description"
+      content="Community website for weather and event updates for Preston, Idaho"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/weather_friends_icon.ico" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <header class="header">
+        <span id="message"></span>
+        <img
+          class="logo"
+          src="images/weather_friends_logo.png"
+          alt="logo of a smiling sun"
+        />
+        <section>
+          <h3 class="moto">Saving Each Other From Unexpected Weather</h3>
+        </section>
+      </header>
+      <nav class="top_nav">
+        <ol class="navigation">
+          <li><a onclick="toggleMenu()" href="#">&#9788; Menu</a></li>
+          <li><a href="../lesson9/index.html">Home</a></li>
+          <li><a class="active" href="#">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+          <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ol>
+      </nav>
+      <main>
+        <h2>Preston</h2>
+        <div class="content_box">
+          <picture class="hero-pic">
+            <source
+              media="(max-width: 35em)"
+              srcset="images/frank_545_small.jpg"
+            />
+            <source
+              media="(max-width: 55.99em)"
+              srcset="images/frank_667_medium.jpg"
+            />
+            <img src="images/frank_960_large.jpg" alt="Image of Preston" />
+          </picture>
+          <section class="weathersummary">
+            <h3>WEATHER SUMMARY</h3>
+            <table class="weather-stats">
+              <tr>
+                <th>Currently:</th>
+                <td><span id="currently"></span></td>
+              </tr>
+              <tr>
+                <th>High:</th>
+                <td><span id="temp"></span> &deg;F</td>
+              </tr>
+              <tr>
+                <th>Wind Chill:</th>
+                <td><span id="windchill"></span></td>
+              </tr>
+              <tr>
+                <th>Humidity:</th>
+                <td><span id="humidity"></span>%</td>
+              </tr>
+              <tr>
+                <th>Wind Speed:</th>
+                <td><span id="windspeed"></span>mph</td>
+              </tr>
+            </table>
+          </section>
+        </div>
+        <div class="forecast">
+          <h3>5 Day Forecast</h3>
+          <table class="forecast-tab">
+            <tr>
+              <th><span id="day1"></span></th>
+              <th><span id="day2"></span></th>
+              <th><span id="day3"></span></th>
+              <th><span id="day4"></span></th>
+              <th><span id="day5"></span></th>
+            </tr>
+            <tr class="forecast-td"></tr>
+          </table>
+        </div>
+        <div class="article">
+          <img
+            class="article-img"
+            src="images/picnic_500_large.jpg"
+            alt="Image of picnic blanket"
+          />
+
+          <h3>Concert: Botanical Gardens</h3>
+          <p class="author">By Grant Boreham</p>
+          <p>
+            Summer isn’t summer in Idaho without the live sunset concerts on the
+            rolling lawns of Preston National Botanical Garden. Gather your
+            picnic baskets, friends, and family, and enjoy the best music Idaho
+            has to offer in the shade of the beautiful trees. <br /><br />
+            The concerts attract a large and diverse crowd. Locals love these
+            summer concerts, and you’ll find people from all backgrounds and all
+            ages here on these balmy Saturday evenings. There is some food on
+            sale, but everyone arrives with cooler boxes, blankets, and
+            incredible picnic spreads to enjoy. The music is as diverse as the
+            crowd. Sometimes there are big international acts, while on other
+            days you’ll catch everything from jazz and orchestral music to rock,
+            pop, folk, and afro-fusion. It’s got all the makings of a big
+            stadium gig, but the atmosphere is relaxed, and the crowd tends to
+            be sprawled out on blankets. It’s also kid-friendly and great for a
+            family outing.
+            <br /><br />
+            The line-up has been set and the tickets are currently on sale!
+          </p>
+          <p>
+            <a class="article-link" href=""
+              >click here to read the full story</a
+            >
+          </p>
+        </div>
+        <div class="contact">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.486452736237!2d-111.87576958428585!3d42.09705147920536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7e967e1ebc7%3A0x14469667cfe31546!2s30%20N%201st%20E%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sza!4v1634410769440!5m2!1sen!2sza"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="contact-info">
+            <p><b>Weather Friends</b></p>
+            <p>30 N 1st E</p>
+            <p>Preston, ID 83263</p>
+            <br />
+            <p>999-999-99999</p>
+            <p>weatherfriends@gmail.com</p>
+            <br />
+            <table class="social">
+              <tr>
+                <td>
+                  <a href=""
+                    ><img src="images/facebook.png" alt="facebook icon"
+                  /></a>
+                </td>
+                <td>
+                  <a href=""
+                    ><img src="images/instagram.png" alt="instagram icon"
+                  /></a>
+                </td>
+                <td>
+                  <a href=""
+                    ><img src="images/youtube.png" alt="youtube icon"
+                  /></a>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <p class="copywright">
+          &copy; <span id="year"></span> Weather Friends | Grant Boreham | <a href="https://openweathermap.org/" target='_blank'>Open Weather Map</a>
+        </p>
+        <p class="time">Current Date: <span id="currentDate"></span></p>
+        <script src="js/weatherapi2.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/windchill.js"></script>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+  </body>
+</html>
