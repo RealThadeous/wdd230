@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>WEATHER FRIENDS | Soda Springs</title>
+    <meta
+      name="description"
+      content="Community website for weather and event updates for Soda Springs, Idaho"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/weather_friends_icon.ico" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <header class="header">
+        <span id="message"></span>
+        <img
+          class="logo"
+          src="images/weather_friends_logo.png"
+          alt="logo of a smiling sun"
+        />
+        <section>
+          <h3 class="moto">Saving Each Other From Unexpected Weather</h3>
+        </section>
+      </header>
+      <nav class="top_nav">
+        <ol class="navigation">
+          <li><a onclick="toggleMenu()" href="#">&#9788; Menu</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="preston.html">Preston</a></li>
+          <li><a class="active" href="#">Soda Springs</a></li>
+          <li><a href="fishhaven.html">Fish Haven</a></li>
+          <li><a href="stormcenter.html">Storm Center</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ol>
+      </nav>
+      <main>
+        <h2>Soda Springs</h2>
+        <div class="content_box">
+          <picture class="hero-pic">
+            <source
+              media="(max-width: 35em)"
+              srcset="images/soda_545_small.jpg"
+            />
+            <source
+              media="(max-width: 55.99em)"
+              srcset="images/soda_667_medium.jpg"
+            />
+            <img src="images/soda_960_large.jpg" alt="Image of Soda Springs" />
+          </picture>
+          <section class="weathersummary">
+            <h3>WEATHER SUMMARY</h3>
+            <table class="weather-stats">
+              <tr>
+                <th>Currently:</th>
+                <td><span id="currently"></span></td>
+              </tr>
+              <tr>
+                <th>High:</th>
+                <td><span id="temp"></span> &deg;F</td>
+              </tr>
+              <tr>
+                <th>Wind Chill:</th>
+                <td><span id="windchill"></span></td>
+              </tr>
+              <tr>
+                <th>Humidity:</th>
+                <td><span id="humidity"></span>%</td>
+              </tr>
+              <tr>
+                <th>Wind Speed:</th>
+                <td><span id="windspeed"></span>mph</td>
+              </tr>
+            </table>
+          </section>
+        </div>
+        <div class="forecast">
+          <h3>5 Day Forecast</h3>
+          <table class="forecast-tab">
+            <tr>
+              <th><span id="day1"></span></th>
+              <th><span id="day2"></span></th>
+              <th><span id="day3"></span></th>
+              <th><span id="day4"></span></th>
+              <th><span id="day5"></span></th>
+            </tr>
+            <tr class="forecast-td"></tr>
+          </table>
+        </div>
+        <div class="article">
+          <img
+            class="article-img"
+            src="images/soda_article_500.jpg"
+            alt="Image of a spring shooting hot water"
+          />
+
+          <h3>Did You Know...</h3>
+          <p class="author">By Grant Boreham</p>
+          <p>
+            Soda Springs is a city in Caribou County, Idaho, United States. Its population was 3,058 at the 2010 census.
+            The city has been the county seat of Caribou County[5] since the county was organized in 1919. In the 1860s, 
+            Soda Springs served as the seat of Oneida County. <br /><br />
+            The city is named for the hundreds of natural springs of carbonated water that are located in and around the 
+            city.[6] The springs were well known to Native Americans and were a famous landmark along the Oregon Trail in 
+            the middle 19th century. Today the city is also known as the location of the Soda Springs Geyser, which was 
+             in 1934 when "town fathers" were looking for hot water for a "hot pool" bathing attraction. Instead they 
+              into a chamber of highly pressurized carbon dioxide gas and cold water and the geyser was released. After 
+              running for weeks, and flooding the downtown area, it was capped and manually released when requested as a 
+              tourist attraction. Now it is let loose every hour on the hour by a timed release valve. Its height and 
+              volume have not decreased after many years. There are viewing platforms at either end of the travertine 
+               where the geyser erupts. Interpretive signs are located on the platforms explaining this phenomenon.
+            <br /><br />
+            Soda Springs is also the location of one of the Ground Observer Corps sites.
+          </p>
+          <p>
+            <a class="article-link" href=""
+              >click here to read the full story</a
+            >
+          </p>
+        </div>
+        <div class="contact">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.486452736237!2d-111.87576958428585!3d42.09705147920536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7e967e1ebc7%3A0x14469667cfe31546!2s30%20N%201st%20E%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sza!4v1634410769440!5m2!1sen!2sza"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="contact-info">
+            <p><b>Weather Friends</b></p>
+            <p>30 N 1st E</p>
+            <p>Preston, ID 83263</p>
+            <br />
+            <p>999-999-99999</p>
+            <p>weatherfriends@gmail.com</p>
+            <br />
+            <table class="social">
+              <tr>
+                <td>
+                  <a href=""
+                    ><img src="images/facebook.png" alt="facebook icon"
+                  /></a>
+                </td>
+                <td>
+                  <a href=""
+                    ><img src="images/instagram.png" alt="instagram icon"
+                  /></a>
+                </td>
+                <td>
+                  <a href=""
+                    ><img src="images/youtube.png" alt="youtube icon"
+                  /></a>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <p class="copywright">
+          &copy; <span id="year"></span> Weather Friends | Grant Boreham | <a href="https://openweathermap.org/" target='_blank'>Open Weather Map</a>
+        </p>
+        <p class="time">Current Date: <span id="currentDate"></span></p>
+        <script src="js/weatherapi2.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/windchill.js"></script>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+  </body>
+</html>
