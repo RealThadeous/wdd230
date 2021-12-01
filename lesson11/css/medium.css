@@ -14,7 +14,12 @@
 nav ol li {
     font-size: 0.8em;
 }
+
+
 .weathersummary {
+    position: absolute;
+    top: 10px;
+    left: 10px;
     font-size: 1em;
 }
 .article {
@@ -88,4 +93,6 @@ section:nth-child(odd) article {
     justify-self: center;
     align-self: center;
 }
+
+
 }

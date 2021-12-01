@@ -84,20 +84,15 @@ p {
 }
 
 .hero-pic img {
-    display:block;
     width: 100%;
-    padding: 0;
-    margin: 0;
     border: #000000 1px solid;
+    margin: 0;
 }
 .weathersummary {
-    position: absolute;
-    top: 10px;
-    left: 10px;
     background-color: #00000099;
     padding: 0.5em;
     line-height: 1em;
-    font-size: 0.8em
+    font-size: 1em;    
 }
 .weathersummary h3 {
     color:#EEAD5C;
@@ -114,7 +109,8 @@ td {
 }
 .weather-stats {
     display: grid;
-    grid-template-columns: 1fr;
+    margin: 0 auto;
+    
 }
 .forecast {
     display: none;
