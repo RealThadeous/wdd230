@@ -10,15 +10,20 @@ fetch(eventURL)
     for (let i of [2]) {
         let card = document.createElement('section');
         
-        let name = document.createElement('h2');
-        let year = document.createElement('h4');
-        let population = document.createElement('h4');
-        let rain = document.createElement('h4');
-        let img = document.createElement('img');
+        let event1 = document.createElement('p');
+        let event2 = document.createElement('p');
+        let event3 = document.createElement('p');
+        let event4 = document.createElement('p');
 
-        name.innerHTML = `${towns[i].events}`;
+        event1.innerHTML = `${towns[i].events[0]}`;
+        event2.innerHTML = `${towns[i].events[1]}`;
+        event3.innerHTML = `${towns[i].events[2]}`;
+        event4.innerHTML = `${towns[i].events[3]}`;
 
-        card.appendChild(name);
+        card.appendChild(event1);
+        card.appendChild(event2);
+        card.appendChild(event3);
+        card.appendChild(event4);
 
         document.querySelector('div.event').appendChild(card);
 

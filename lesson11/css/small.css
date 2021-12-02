@@ -145,6 +145,18 @@ td {
     padding: 0.5em;
  
 }
+
+div.event {
+    display: block;
+    width: 94%;
+    border: 5px black solid;
+    background-color: #EEAD5C;
+    text-align: center;
+    margin: 0 auto;
+}
+div.event h2 {
+    text-decoration: underline;
+}
 .article {
     max-width: 100%;
     margin: 10px;
