@@ -1,0 +1,28 @@
+{
+	"businesses": [
+		{
+			"name": "Caspita",
+			"website": "http://www.caspita.co.za/",
+			"image": "caspita_logo.jpg",
+			"bio": "Caspita is a mediterranean family restaurant and venue offering an overall great experience. It's all about food, family, friends and fun."
+		},
+		{
+			"name": "Amour Guest House",
+			"website": "https://amourguesthouse.business.site/",
+			"image": "no-logo.jpg",
+			"bio": " Situated in a tranquil setting at the foot of the Outeniqua Mountains in Heatherlands. Featuring elegant private suites and bedrooms. "
+		},
+		{
+			"name": "Eden Adventures",
+			"website": "https://.eden.co.za",
+			"image": "eden-logo.jpg",
+			"bio": "Specialises in outdoor adventure tours, as well as teambuilding activities. Tours include canoeing, kloofing and abseiling,"
+		},
+		{
+			"name": "Raptors Travel Agency",
+			"website": "https://.raptorstravel.co.za",
+			"image": "raptors_logo.jpg",
+			"bio": "Your dedicated travel expert that has over 20 years experience working in the travel industry"
+		}
+	]
+}

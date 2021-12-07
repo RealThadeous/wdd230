@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"name": "Year-End Networking Breakfast",
+			"date": "Friday, 10 December 2021",
+            "time": "08:00 - 09:30",
+			"details": "Join us for our annual end-of-year networking breakfast.",
+            "website": "www.fb.com/commerce-event-1/"
+		},
+		{
+			"name": "Netowrking Evening",
+			"date": "Wednesday, 15 December 2021",
+            "time": "18:00 - 20:00",
+			"details": "Meet and greet with new members of the chamber.",
+            "website": "www.fb.com/commerce-event-2/"
+		},
+		{
+			"name": "Mini Expo",
+			"date": "Friday, 21 January 2022",
+            "time": "08:00 - 12:00",
+			"details": "Networking with local businesses and opportunity to showcase your company.",
+            "website": "www.fb.com/commerce-event-3/"
+		}
+	]
+}
