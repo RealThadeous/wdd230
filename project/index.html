@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Geoege Business Chamber | Home</title>
+    <meta name="description" content="Home page for the Geroge Business Chamber of Commerce" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  </head>
+  <body>
+  <div class="content">
+      <header class="header">
+        <span id="message"></span>
+        <img class="logo" src="images/logo.jpg" alt="icon of blue building"/>
+      <nav class="top_nav">
+        <ol class="navigation">
+          <li><a onclick="toggleMenu()" href="#">&#9788; Menu</a></li>
+          <li><a class="active" href="#">HOME</a></li>
+          <li><a href="#">CITY</a></li>
+          <li><a href="#">JOIN</a></li>
+          <li><a href="#">DIRECTORY</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ol>
+      </nav>
+      </header>
+
+      <main>
+        
+        <div class="content_box">
+            <picture class="hero-pic">
+              <source media="(max-width: 35em)" srcset="images/hero_800x1200_small.jpg"/>
+              <source media="(max-width: 55.99em)" srcset="images/hero_1200x800_medium.jpg"/>
+              <img src="images/hero_1920x500_large.jpg" alt="Image of people gathered in room" />
+            </picture>
+            <section class="join-action">
+                <h3>HELP BUILD THE GEORGE COMMUNITY</h3>
+                <p>Join us and be a part of our network events, training's, and activities to help grow your business 
+                  and the economy</p>
+                <button class="join-button" type="button" onclick="#">JOIN</button>
+            </section>
+        </div>
+        
+        <article>
+            <h2>THE GEORGE BUSINESS CHAMBER</h2>
+            <p>George Business Chamber advocates for the advancement of business and community. 
+                We are a non-profit, membership-based organization that collaborates with the other 
+                Business Chambers/ Organisations in the Garden Route to ensure economic growth, development, 
+                and prosperity. We conduct our business and interactions with stakeholders in an ethical manner 
+                and take a strong stand against non-ethical behaviour. The George Business Chamber NPC Southern 
+                Cape is lead and governed by a Board, Executive Committee (Exco)and 2 full-time employees of 
+                which one is the CEO. Our portfolio focus is determined by the socio-economic environment. Each 
+                portfolio is lead by a Board or Exco member and supported by appropriately skilled affiliates.</p>    
+        </article>
+        
+        <section class="bus-pro">
+            <h2>GEORGE BUSINESS PROFILES</h2>
+            <div class="bus-cards"></div>
+        </section>
+
+        <section class="events">
+            <h2>UPCOMING EVENTS</h2>
+            <div class="event-cards"></div>
+        </section>
+
+        <section class="weathersummary">
+            <h2>WEATHER</h2>
+            <table class="weather-stats">
+              <tr>
+                  <th>Temperature:</th>
+                  <td><span id="temp"></span> &deg;F</td>
+              </tr>
+              <tr>
+                <th>Currently:</th>
+                <td><span id="currently"></span></td>
+              </tr>
+              <tr>
+                <th>Humidity:</th>
+                <td><span id="humidity"></span>%</td>
+              </tr>
+            </table>
+          </section>
+        </div>
+        <div class="forecast">
+          <h3>3 Day Forecast</h3>
+          <table class="forecast-tab">
+            <tr>
+              <th><span id="day1"></span></th>
+              <th><span id="day2"></span></th>
+              <th><span id="day3"></span></th>
+            </tr>
+            <tr class="forecast-td"></tr>
+          </table>
+        </div>
+
+        <div class="images">
+            <h2>IMAGES OF GEORGE</h2>
+            <picture class="image1">
+                <source media="(max-width: 35em)" srcset="images/george_dam_545_small.jpg"/>
+                <source media="(max-width: 55.99em)" srcset="images/george_dam_667_medium.jpg"/>
+                <img src="images/george_dam_960_large.jpg" alt="Image of kayak half on land, half in water" />
+              </picture>
+              <picture class="image2">
+                <source media="(max-width: 35em)" srcset="images/herolds_bay_545_small.jpg"/>
+                <source media="(max-width: 55.99em)" srcset="images/herolds_bay_667_medium.jpg"/>
+                <img src="images/herolds_bay_960_large.jpg" alt="view of beach and houses" />
+              </picture>
+              <picture class="image3">
+                <source media="(max-width: 35em)" srcset="images/george_forest_545_small.jpg"/>
+                <source media="(max-width: 55.99em)" srcset="images/george_forest_667_medium.jpg"/>
+                <img src="images/george_forest_960_large.jpg" alt="Image of cement picnic table in a forest" />
+              </picture>
+        </div>
+
+      </main>
+      <div class="contact">
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11130.991852034002!2d22.442858481301815!3d-33.960061659365465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dd60536fa729635%3A0x95d9cf04e0e80a9b!2sGeorge%20Business%20Chamber!5e0!3m2!1sen!2sza!4v1638818223176!5m2!1sen!2sza"
+             width="1920" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="contact-info">
+            <p><b>George Business Chamber of Commerce</b></p>
+            <p>101 York Street</p>
+            <p>Dormehls Drift, George</p>
+            <p>6529</p>
+            <br />
+            <p>044-123-4567</p>
+            <p>fakecommerce@george.com</p>
+            <br />
+            <table class="social">
+              <tr>
+                <td>
+                  <a href=""
+                    ><img src="images/facebook.png" alt="facebook icon"
+                  /></a>
+                </td>
+                <td>
+                  <a href=""
+                    ><img src="images/instagram.png" alt="instagram icon"
+                  /></a>
+                </td>
+                <td>
+                  <a href=""
+                    ><img src="images/youtube.png" alt="youtube icon"
+                  /></a>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      <footer class="footer">
+        <p class="copywright">
+          &copy; <span id="year"></span> George Business Chamber of Commerce | Grant Boreham WDD230 Project
+        </p>
+        <p class="time">Current Date: <span id="currentDate"></span></p>
+      </footer>
+      <script src="js/businesses.js"></script>
+      <script src="js/events.js"></script>
+      <script src="js/weather.js"></script>
+      <script src="js/lazyload.js" async defer></script>
+      <script src="js/webfont.js"></script>
+      <script src="js/main.js"></script>
+  </div>
+  </body>
+</html>
