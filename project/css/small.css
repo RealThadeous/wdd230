@@ -45,16 +45,12 @@ nav ol li a {
 	padding: 0.75em;
 	text-decoration: none;
 }
-/* nav a:hover {
-    color: #000000;
-    background-color: #AFBBF2;
-    font-weight: bold;
-} */
 .responsive li {
     display: block;
 }
 .active {
-    background-color: #8087CE80;
+    color:#5271FF;
+    background-color: #000000;
 }
 main {
     margin: 0 auto;
@@ -248,6 +244,7 @@ article h2 {
     padding: 0;
 }
 .images h2 {
+    margin-top: 40px;
     text-decoration: underline;
 }
 .images img {
