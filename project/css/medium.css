@@ -89,4 +89,25 @@ div.event-cards {
     margin: 0 auto;
 }
 
+/* ---------------------CODE FOR JOIN PAGE -----------------------*/
+select.title {
+    max-width: 200px;
+}
+div.memOptions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+form input.submitBtn {
+    margin-top: 2%;
+}
+
+/*-------------- CODE FOR DIRECTORY PAGE ------------------*/
+
+div.directory-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div.directory-cards section {
+    margin-bottom: 10px;
+}
 }

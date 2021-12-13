@@ -59,11 +59,15 @@
         margin-top: 20px;
     }
     div.bus-cards {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 25% 25% 25% 25%;
     }
     div.bus-cards section {
         padding: 5px;
-        margin: 0 auto;
+        width: 90%;
+        overflow-wrap: break-word;
+        border: 1px solid black;
+        background-color: #D3FFF380;
+        border-radius: 10px;
     }
     section.events {
         grid-column: 1 / 2;
@@ -113,4 +117,24 @@
         width: 100%;
         margin: none;
     }
+
+    /* ------------------------- CODE FOR JOIN PAGE ---------------------------*/
+    form input.submitBtn {
+        margin-top: 1%;
+    }
+
+    /* ------------------------- CODE FOR JOIN PAGE ---------------------------*/
+
+    section.directory {
+        text-align: center;
+    }
+    div.directory-cards {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    div.directory-cards section {
+        padding: 5px;
+        width:90%;
+        overflow-wrap: break-word;
+    }
+
 }

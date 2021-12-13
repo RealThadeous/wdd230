@@ -2,27 +2,52 @@
 	"businesses": [
 		{
 			"name": "Caspita",
-			"website": "http://www.caspita.co.za/",
+			"phone": "072 837 2755",
+			"website": "https://www.caspita.co.za/",
 			"image": "caspita_logo.jpg",
 			"bio": "Caspita is a mediterranean family restaurant and venue offering an overall great experience. It's all about food, family, friends and fun."
 		},
 		{
 			"name": "Amour Guest House",
+			"phone": "072 235 9857",
 			"website": "https://amourguesthouse.business.site/",
 			"image": "no-logo.jpg",
 			"bio": " Situated in a tranquil setting at the foot of the Outeniqua Mountains in Heatherlands. Featuring elegant private suites and bedrooms. "
 		},
 		{
 			"name": "Eden Adventures",
+			"phone": "044 877 0179",
 			"website": "https://.eden.co.za",
 			"image": "eden-logo.jpg",
 			"bio": "Specialises in outdoor adventure tours, as well as teambuilding activities. Tours include canoeing, kloofing and abseiling,"
 		},
 		{
 			"name": "Raptors Travel Agency",
+			"phone": "082 374 6075",
 			"website": "https://.raptorstravel.co.za",
 			"image": "raptors_logo.jpg",
 			"bio": "Your dedicated travel expert that has over 20 years experience working in the travel industry"
+		},
+		{
+			"name": "101 Meade",
+			"phone": "044 874 0343",
+			"website": "https://www.101meade.co.za/",
+			"image": "no-logo.jpg",
+			"bio": "Contemporary South African Restaurant situated in George, South Africa that serves classic European and traditional South African inspired food."
+		},
+		{
+			"name": "AVIS Car Hire",
+			"phone": "044 876 9314",
+			"website": "https://www.avis.co.za/",
+			"image": "no-logo.jpg",
+			"bio": " Situated in a tranquil setting at the foot of the Outeniqua Mountains in Heatherlands. Featuring elegant private suites and bedrooms. "
+		},
+		{
+			"name": "Redberry Farm",
+			"phone": "044 870 7123",
+			"website": "https://www.redberryfarm.co.za/",
+			"image": "no-logo.jpg",
+			"bio": "Discover spectacular strawberries, artisan eateries and outdoor activities at Garden Route’s favourite family destination, Redberry Farm."
 		}
 	]
 }

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Geoege Business Chamber | Join</title>
+    <meta name="description" content="Membership page for the Geroge Business Chamber of Commerce" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  </head>
+  <body>
+  <div class="content">
+      <header class="header">
+        <span id="message"></span>
+        <img class="logo" src="images/logo.jpg" alt="icon of blue building"/>
+      <nav class="top_nav">
+        <ol class="navigation">
+          <li><a onclick="toggleMenu()" href="#">&#9788; Menu</a></li>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">GEORGE</a></li>
+          <li><a class="active" href="#">JOIN</a></li>
+          <li><a href="directory.html">DIRECTORY</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ol>
+      </nav>
+      </header>
+
+      <main class="join-main">
+      <h1>MEMBERSHIP</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>MEMBER DETAILS</legend>
+                <label class="top">Title: 
+                    <select name="title" class="title">
+                        <option value="selectTitle" selected="true" disabled="disabled">Title</option>
+                        <option value="mr">Mr</option>
+                        <option value="mrs">Mrs</option>
+                        <option value="miss">Miss</option>
+                        <option value="ms">Ms</option>
+                        <option value="dr">Dr</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+                <label class="top">First Name:* <input type="text" name="name" class="top" placeholder="Your First Name" pattern="\s*(\S\s*){1,}" title="Name should have at least 2 characters." required="" /></label>
+                <label class="top">Last Name:* <input type="text" name="Lname" class="top" placeholder="Your Last Name" pattern="\s*(\S\s*){1,}" title="Name should have at least 2 characters." required="" /></label>
+                <label class="top">Email:* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Cell Phone: <input type="tel" name="phone" placeholder="1235551234"></label>
+            </fieldset><br>
+            
+            <fieldset>
+                <legend>BUSINESS DETAILS</legend>
+                <label class="top">Business Name:* <input type="text" name="busName" required></label>
+                <label class="top">Business Address: <input type="text" name="busAd" placeholder="Address Line 1"><input type="text" name="busAd" placeholder="Address Line 2"></label>
+                <label class="top">Postal Code:* <input type="number" name="post"></label>
+                
+                <label class="top" for="url">Business Website: <input type="url" name="url" id="url" placeholder="www.example.com"></label>
+                <label class="top">Business Description: <textarea class="busDescrip" name="busDescrip" placeholder="Tell us more about what your business does?"></textarea></label>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>MEMBERSHIP OPTIONS</legend>
+                <label class="top"> 
+                    <select name="membership" class="membership">
+                        <option value="selectOption" selected="true" disabled="disabled">Select Membership </option>
+                        <option value="bronze">Bronze</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                        <option value="np">Non-Profit</option>
+                    </select>
+                </label>
+                
+                <div class="memOptions">
+                    <div class="bronze">
+                        <h4>Bronze</h4>
+                        <ul>
+                            <li>Joining Fee of $200</li>
+                            <li>Invite to Bronze Tier Events</li>
+                            <li>Listed in Directory</li>
+                    </div>
+                    <div class="silver">
+                        <h4>Silver</h4>
+                        <ul>
+                            <li>Joining Fee of $400</li>
+                            <li>Same Benefits as Bronze Membership</li>
+                            <li>Host Single Event at Your Office</li>
+                            <li>Advertising on Our Social Media Pages</li>
+                            <li>Invite to Silver Tier Events</li>
+                    </div>
+                    <div class="gold">
+                        <h4>Gold</h4>
+                        <ul>
+                            <li>Joining Fee of $1000</li>
+                            <li>Same Benefits as Silver Membership</li>
+                            <li>Business Training Twice A Year</li>
+                            <li>Company Branding at Events</li>
+                            <li>Invite to Exclusive Gold Tier Events</li>
+                    </div>
+                    <div class="np">
+                        <h4>Non-Profit</h4>
+                        <ul>
+                            <li>Joining Fee of $100</li>
+                            <li>Same Benefits as Bronze Membership</li>
+                            <li>Advertising on Our Social Media Pages</li>
+                            <li>Invite to Silver Tier Events</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <input type="submit" value="SUBMIT APPLICATION" class="submitBtn">
+        
+        </form>
+
+
+      </main>
+
+      <div class="contact">
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11130.991852034002!2d22.442858481301815!3d-33.960061659365465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dd60536fa729635%3A0x95d9cf04e0e80a9b!2sGeorge%20Business%20Chamber!5e0!3m2!1sen!2sza!4v1638818223176!5m2!1sen!2sza"
+           width="1920" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="contact-info">
+          <p><b>George Business Chamber of Commerce</b></p>
+          <p>101 York Street</p>
+          <p>Dormehls Drift, George</p>
+          <p>6529</p>
+          <br />
+          <p>044-123-4567</p>
+          <p>fakecommerce@george.com</p>
+          <br />
+          <table class="social">
+            <tr>
+              <td>
+                <a href=""
+                  ><img src="images/facebook.png" alt="facebook icon"
+                /></a>
+              </td>
+              <td>
+                <a href=""
+                  ><img src="images/instagram.png" alt="instagram icon"
+                /></a>
+              </td>
+              <td>
+                <a href=""
+                  ><img src="images/youtube.png" alt="youtube icon"
+                /></a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    <footer class="footer">
+      <p class="copywright">
+        &copy; <span id="year"></span> George Business Chamber of Commerce | Grant Boreham WDD230 Project
+      </p>
+      <p class="time">Last Updated: <span id="currentDate"></span></p>
+    </footer>
+    <script src="js/webfont.js"></script>
+    <script src="js/main.js"></script>
+</div>
+</body>
+</html>

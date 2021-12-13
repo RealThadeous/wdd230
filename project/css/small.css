@@ -252,3 +252,123 @@ article h2 {
     border: #000000 1px solid;
     margin: 0 auto;
 }
+
+/*-------------- CODE FOR JOIN PAGE ------------------*/
+form fieldset {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #D3FFF3;
+}
+form legend {
+    color: #000000;
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    
+}
+form label.top input, form label.top select, #stormType, form label.top textarea {
+    display: block;
+    padding-top: 1rem;
+    padding: .75rem;
+    width: 90%;
+    
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+}
+form span {
+    color: #EEAD5C;
+    font-weight: bold;
+}
+div.memOptions div {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: left;
+    padding: 1em;
+}
+div.memOptions h4 {
+    text-align: center;
+}
+.membership {
+    margin: 0 auto;
+}
+div.memOptions .bronze {
+    background-color: burlywood;
+}
+div.memOptions .silver {
+    background-color: silver;
+}
+div.memOptions .gold {
+    background-color: gold;
+}
+div.memOptions .np {
+    background-color: azure;
+}
+form input.submitBtn {
+    display: block;
+    border: none;
+    border-radius: 10px;
+    background-color: #5271FF;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 95%;
+    max-width: 900px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+form label.top input:required {
+    border: red solid 3px;
+    color: red;
+}
+form label.top input:required:valid {
+    border: green solid 3px;
+    color: green;
+}
+
+/*-------------- CODE FOR THANKS PAGE ------------------*/
+
+.thanks {
+    text-align: center;
+}
+
+/*-------------- CODE FOR DIRECTORY PAGE ------------------*/
+
+.directory {
+    display: block;
+    text-align: center;
+}
+.directory h2 {
+    text-decoration: underline;
+    margin-top: 40px;
+}
+.directory-cards section {
+    text-align: center;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #D3FFF380;    
+}
+.directory-cards img {
+    width: 30%;
+}
+
+/*-------------- CODE FOR CONTACT PAGE ------------------*/
+
+div#thank_you {
+    text-align: center;
+}
