@@ -33,6 +33,7 @@
     }
     .contact {
         flex-direction: column;
+        width: 100%;
     }
     .map {
         display: flex;
