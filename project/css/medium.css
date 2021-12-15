@@ -111,4 +111,12 @@ div.directory-cards {
 div.directory-cards section {
     margin-bottom: 10px;
 }
+
+/*-------------- CODE FOR GEORGE PAGE ------------------*/
+
+div.george-event-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 }

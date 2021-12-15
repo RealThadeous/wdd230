@@ -1,4 +1,4 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=-33.963&lon=22.4617&appid=bfec02243921903c293dcb0c1b72d77d&units=imperial'
+const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=34.0522&lon=-118.2437&appid=bfec02243921903c293dcb0c1b72d77d&units=imperial'
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -9,21 +9,21 @@ fetch(apiURL)
     document.getElementById('currently').textContent = jsObject.current.weather[0].description;
     document.getElementById('humidity').textContent = jsObject.current.humidity;
    
-    // let alerts = jsObject['alerts'];
-    //   {
-    //     let card = document.createElement('section')
+    let alerts = jsObject['alerts'];
+    alerts.forEach((alert) => {
+        let card = document.createElement('section')
 
-    //     let alert = document.createElement('p');
-    //     let details = document.createElement('p');
+        let event = document.createElement('p');
+        let details = document.createElement('p');
 
-    //     alert.innerHTML = `Alert: ${alerts.event}`;
-    //     details.innerHTML = alerts.description;
+        event.innerHTML = `Alert: ${alert.event}`;
+        details.innerHTML = alert.description;
 
-    //     card.appendChild(alert);
-    //     card.appendChild(details);
+        card.appendChild(event);
+        card.appendChild(details);
 
-    //     document.querySelector('span.message').appendChild(card);
-    //   }
+        document.querySelector('#message').appendChild(card);
+      });
     
     let forecast = jsObject['daily'];
     for (let i of [0, 1, 2]) {

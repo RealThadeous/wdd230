@@ -113,6 +113,20 @@ footer a {
 
 /*-------------- CODE FOR HOME PAGE ------------------*/
 
+#message {
+    display: block;
+    background-color: #0AD3FF;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+.closebtn {
+    font-size: 30px;
+}
+.closebtn:hover {
+    color: white;
+}
+
 .join-action {
     background-color: #D3FFF3;
     padding: 0.5em;
@@ -371,4 +385,29 @@ form label.top input:required:valid {
 
 div#thank_you {
     text-align: center;
+}
+
+/*-------------- CODE FOR GEORGE PAGE ------------------*/
+
+section.demograph h4, section.demograph p {
+    text-align: center;
+    padding: 10px;
+}
+.george-events {
+    display: block;
+    border-bottom: 2px solid black;
+}
+.george-events h2 {
+    text-decoration: underline;
+    padding-top: 40px;
+    width: 70%;
+    margin: 0 auto;
+}
+.george-event-cards section {
+    text-align: center;
+    border: 1px solid black;
+    background-color: #D3FFF3;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;    
 }

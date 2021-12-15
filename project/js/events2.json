@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"name": "Uncle George's Christmas Party",
+			"date": "9 - 23 December 2021",
+            "time": "17:30 - 21:30",
+			"details": "Meet Santa and the Fairy, Noddy and his friends, all at the fairy's magical castle.",
+            "website": "https://unclegeorge.wixsite.com/mysite"
+		},
+		{
+			"name": "Boerevintage Market",
+			"date": "16 - 22 December 2021",
+            "time": "09:00 - 18:00",
+			"details": "Boere vintage Gift Market will once again have a gift pop-up market at the fantastic Redberry Farm in Geelhoutboom, George.",
+            "website": "https://www.boerevintage.co.za/"
+		},
+		{
+			"name": "Carols by Candlelight",
+			"date": "21 December 2021 ",
+            "time": "18:00 Start",
+			"details": "Enjoy an evening in songs and receive a memorable Christmas message at Redberry Farm. The guest artist that will be perfoming is Michael Lindt.",
+            "website": "https://www.redberryfarm.co.za/carols-by-candlelight/"
+		}
+	]
+}

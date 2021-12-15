@@ -16,12 +16,12 @@
   <body>
   <div class="content">
       <header class="header">
-        <span id="message"></span>
+        
         <img class="logo" src="images/logo.jpg" alt="icon of blue building"/>
       <nav class="top_nav">
         <ol class="navigation">
           <li><a onclick="toggleMenu()" href="#">&#9788; Menu</a></li>
-          <li><a href="#">HOME</a></li>
+          <li><a href="index.html">HOME</a></li>
           <li><a class="active" href="#">GEORGE</a></li>
           <li><a href="join.html">JOIN</a></li>
           <li><a href="directory.html">DIRECTORY</a></li>
@@ -29,6 +29,48 @@
         </ol>
       </nav>
       </header>
+      <div class="intro">
+        <h1>GEORGE</h1>
+        <h3>Set in the middle of the mezmirizing Garden Route, come and visit George - 
+          surrounded by majestic oceans, mountains, forests and farmlands. You can't get more "South African" than this!</h3>
+        <section class="demograph">
+          <h3>About George</h3>
+          <h4>Founded: 23 April 1811</h4>
+          <h4>Population: 157,391(2020)</h4>
+          <h4>History:</h4>
+          <p>The town of George is central to South Afrtican Garden Route in the Western Cape province and is the 
+            sixth oldest town in South Africa - the first founded under British rule - and was named after the reigning
+             monarch in 1811, King George III. The Outeniqua forests were the reason the Dutch East India Company, in 1776
+             , established a woodcutters outpost on the site of what became George in 1811. It was declared a drostdy by 
+             the Earl of Caledon on 23 April 1811. George gained municipal status in 1837.</p>
+          </section>
+        </div>
+          
+
+
+      <section class="george-events">
+        <h2>UPCOMING EVENTS</h2>
+        <div class="george-event-cards"></div>
+      </section>
+
+    <div class="images">
+      <h2>IMAGES OF GEORGE</h2>
+      <picture class="image1">
+          <source media="(max-width: 35em)" srcset="images/george_dam_545_small.jpg"/>
+          <source media="(max-width: 55.99em)" srcset="images/george_dam_667_medium.jpg"/>
+          <img src="images/george_dam_960_large.jpg" alt="Image of kayak half on land, half in water" />
+        </picture>
+        <picture class="image2">
+          <source media="(max-width: 35em)" srcset="images/herolds_bay_545_small.jpg"/>
+          <source media="(max-width: 55.99em)" srcset="images/herolds_bay_667_medium.jpg"/>
+          <img src="images/herolds_bay_960_large.jpg" alt="view of beach and houses" />
+        </picture>
+        <picture class="image3">
+          <source media="(max-width: 35em)" srcset="images/george_forest_545_small.jpg"/>
+          <source media="(max-width: 55.99em)" srcset="images/george_forest_667_medium.jpg"/>
+          <img src="images/george_forest_960_large.jpg" alt="Image of cement picnic table in a forest" />
+        </picture>
+  </div>
 
 
       <div class="contact">
@@ -72,7 +114,7 @@
       </p>
       <p class="time">Last Updated: <span id="currentDate"></span></p>
     </footer>
-    <script src="js/events.js"></script>
+    <script src="js/events2.js"></script>
     <script src="js/webfont.js"></script>
     <script src="js/main.js"></script>
 </div>
